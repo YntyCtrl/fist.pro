@@ -126,6 +126,7 @@ h1{
     width: 248px;
     height: 369px;
 }
+
 .input-div{
     width: 100%
 }
@@ -186,7 +187,18 @@ h1{
     color: #737373;
 }
 .book-bt{
-    
+    background-color: #ffa62b;
+    border-radius: 5px;
+    width: 248px;
+    height: 58px;
+    border: none;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff
+
 }
 
 
