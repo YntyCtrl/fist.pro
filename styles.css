@@ -26,7 +26,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 34px;
+    padding-top: 34px;
     
 }
 .sprivatent{
@@ -54,6 +54,59 @@ nav ul li{
     line-height: 1.714245; 
     color: #737373;
 }
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 1.38;
+    max-width: 693px;
+
+}
+.section-1-p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 479px;
+    color: #737373;
+    
+
+}
+.section-1-frt-div{
+    max-width: 600px;
+}
+.blue-bt{
+    padding: 10px 36px;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+    background-color: #00A0C1;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+.blue-bt:focus{
+    outline: none;
+}
+.transparent-bt{
+    
+    padding: 10px 36px;
+    border: 1px solid #00A0C1;
+    border-radius: 37px;
+    background-color: transparent;
+    color: #00A0C1;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+
+}
 
 
 
@@ -85,5 +138,4 @@ nav ul li{
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
