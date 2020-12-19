@@ -162,7 +162,7 @@ h1{
     padding-bottom: 11px;
     padding-left: 21px;
     padding-right: 0;
-    
+    margin: 10px 0;
     
 }
 .select-ctrl-1{
@@ -181,6 +181,8 @@ h1{
     padding-bottom: 16px;
     padding-left: 21px;
     padding-right: 0;
+
+    margin: 10px 0;
 }
 .select-ctrl-1:focus{
     outline: none;
@@ -204,7 +206,9 @@ h1{
     font-weight: bold;
     font-size: 14px;
     line-height: 28px;
-    color: #fff
+    color: #fff;
+    margin: auto 0;
+    
 
 }
 
