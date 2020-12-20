@@ -255,7 +255,18 @@ h1{
     
     
 }
-
+.card-icon{
+    display: flex;
+    justify-content: baseline;
+}
+.section-2-h5{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252b42;
+    margin-left: 15px;
+}
 
 
 
