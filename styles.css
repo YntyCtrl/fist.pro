@@ -222,10 +222,15 @@ h1{
 
 .section-2{
     height: 732px;
-    background-color: #d6cece;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.main-div-2{
+    width: 328px;
+    display: flex;
+    
 }
 .header-div-2{
     text-align: center;
@@ -258,6 +263,8 @@ h1{
 .card-icon{
     display: flex;
     justify-content: baseline;
+    margin: 30px 44px;
+    
 }
 .section-2-h5{
     font-family:'Montserrat', sans-serif;
@@ -266,6 +273,46 @@ h1{
     line-height: 24px;
     color: #252b42;
     margin-left: 15px;
+}
+.list-div{
+    border: 1px solid #a9d6ff;
+    background-color: #fff;
+    border-radius: 11px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 44px;
+}
+.list-div li{
+    list-style-type: none;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    margin-bottom: 5px;
+}
+.list-div #learn{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffa62b;
+}
+.card-section-2{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #D9EDFF;
+    border-radius: 10px;
+    margin:0 auto;
+    width: 328px;
+    
+    
+}
+.main-div-2{
+    width: 100%;
+    
 }
 
 
