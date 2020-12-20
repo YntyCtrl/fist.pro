@@ -338,6 +338,7 @@ h1{
     line-height: 57px;
     width: 461px;
     margin: 0 auto;
+    color: #252b42;
 
 }
 .section-3-p{
@@ -352,6 +353,14 @@ h1{
     margin-left: auto;
     margin-right: auto
 }
+.main-div-3{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
+}
+
 
 
 
