@@ -318,6 +318,26 @@ h1{
     width: 100%;
     
 }
+.section-3{
+    background-color: #392c86;
+    height: 816px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.header-div-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center
+
+}
+.section-3-h2{
+
+}
+.section-3-p{
+
+}
 
 
 
