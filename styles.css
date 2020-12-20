@@ -393,7 +393,13 @@ h1{
     margin-right: auto
 }
 .star-card{
-    
+
+}
+.section-4-p{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 
