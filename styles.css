@@ -8,6 +8,9 @@ body{
     width: 100%;
     max-width: 1048px;
     margin: 0 auto;
+    
+    
+
      
 }
 .wi-h{
@@ -363,14 +366,27 @@ h1{
 .section-4{
     height: 591px;
     display: flex;
-    align-items: center;
+    
+    justify-content:space-around ;
+    
     background-color: #F3F3F3;
-
+}
+.disp-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .header-div-4{
     display: flex;
     flex-direction: column;
-    text-align: center
+    text-align: center;
+    
+}
+.main-div-4{
+    display: flex;
+    justify-content: space-between;
+    
+
 }
 .section-4-h2{
     font-family:'Montserrat', sans-serif;
@@ -393,17 +409,50 @@ h1{
     margin-right: auto
 }
 .star-card{
+    width: 327px;
+    height: 244px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 35px;
+    background-color: #fff;
 
 }
-.section-4-p{
+.star-p{
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    
+    color: #737373;
+    width: 234px;
 }
-
-
-
+.div-dis{
+    display: flex;
+}
+.des{
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #252b42;
+}
+.star-a{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffa62b;
+}
+.star-designer{
+    margin-left: 15px;
+}
 
 
 
