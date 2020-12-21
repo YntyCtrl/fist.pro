@@ -498,9 +498,34 @@ h1{
 .team-card{
     width: 328px;
     height: 373px;
+    max-width: 372px;
 
     background-color: #fff;
 }
+.icon-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 142px;
+    
+}
+.div-h5{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252b42;
+}
+.div-h6{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #737373;
+    padding-bottom: 5px;
+}
+
 
 
 
