@@ -491,6 +491,16 @@ h1{
         margin-right: auto;
 
 }
+.main-div-5{
+    display: flex;
+    justify-content: space-between;
+}
+.team-card{
+    width: 328px;
+    height: 373px;
+
+    background-color: #fff;
+}
 
 
 
