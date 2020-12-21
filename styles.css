@@ -460,7 +460,7 @@ h1{
     
     justify-content:space-around ;
     
-    background-color: #a9d6ff
+    
 }
 .header-div-5{
     display: flex;
@@ -524,6 +524,9 @@ h1{
     line-height: 24px;
     color: #737373;
     padding-bottom: 5px;
+}
+.mar{
+    margin: 0 15px;
 }
 
 
