@@ -526,6 +526,9 @@ h1{
     padding-bottom: 5px;
 }
 .section-6{
+    background-image: url(./bacground-6.png);
+    background-size: cover;
+    
     height: 821px;
     
 }
@@ -550,6 +553,10 @@ h1{
     margin: 10px 0;
 }
 .select-6{
+    display: flex;
+
+    
+
     width: 100%;
     background-color: #f9f9f9;
     border: 1px solid #bdbdbd;
@@ -575,7 +582,10 @@ h1{
 }
 .mini-limit{
     width: 579px;
-    height: 602;
+    height: 602px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .padd-l-10{
     padding-left: 10px;
@@ -616,6 +626,22 @@ h1{
     color: #252b42;
     margin: 0;
 }
+.button-6{
+    background-color: #ffa62b;
+    border-radius: 5px;
+    width: 218px;
+    height: 58px;
+    border: none;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    
+    outline: none;
+}
+
 
 
 
