@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
 }
@@ -20,7 +21,7 @@ body{
     background-image: url(./first-bg-img.png);
     background-size: cover;
     
-    height: 823px;
+    height: 100%;
     
     
 }
@@ -38,6 +39,8 @@ nav{
 .heder-div-1{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 50px;
 }
 .sprivatent{
     font-family: mo;
@@ -224,7 +227,7 @@ h1{
 
 
 .section-2{
-    height: 732px;
+    height: 100%;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -233,6 +236,7 @@ h1{
 .main-div-2{
     width: 328px;
     display: flex;
+    padding-bottom: 80px;
     
 }
 .header-div-2{
@@ -364,7 +368,7 @@ h1{
     
 }
 .section-4{
-    height: 591px;
+    height: 100%;
     display: flex;
    
     justify-content:space-around ;
@@ -380,11 +384,13 @@ h1{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 80px;
     
 }
 .main-div-4{
     display: flex;
     justify-content: space-between;
+    margin: 80px 0;
     
 
 }
@@ -454,7 +460,7 @@ h1{
     margin-left: 15px;
 }
 .section-5{
-    height: 732px;
+    height: 100%;
 
     display: flex;
     
@@ -466,6 +472,7 @@ h1{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 80px;
 
 }
 .section-5-h2{
@@ -494,6 +501,7 @@ h1{
 .main-div-5{
     display: flex;
     justify-content: space-between;
+    margin: 80px 0;
 }
 .team-card{
     width: 328px;
@@ -642,7 +650,7 @@ h1{
     outline: none;
 }
 .section-7{
-    height: 526px;
+    height: 100%;
     background-color: #252b42;
 
 }
@@ -676,6 +684,7 @@ hr{
 .main-div-7{
     display: flex;
     margin-top: 70px;
+    padding-bottom: 140px;
 }
 
 .list-footer{
@@ -733,7 +742,7 @@ hr{
 .input-7,.button-7:focus{
     outline: none;
 }
-.input-bt{
+#input-bt{
     display: flex;
     justify-content: baseline;
     
@@ -746,6 +755,55 @@ hr{
     font-size: 12px;
     line-height: 28px;
     color: #bdbdbd
+}
+
+@media(max-width:1006px){
+    .heder-div-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-1-sec-div{
+        margin-top: 80px;
+    }
+    .main-div-2{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .card-section-2{
+        margin-bottom: 40px
+    }
+    .main-div-4{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .star-card{
+        margin: 30px 0;
+    }
+    .main-div-5{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .team-card{
+        margin: 30px 0;
+    }
+    .mini-limit{
+        align-items: center;
+        margin: 0 auto;
+    }
+    .main-div-7{
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-footer{
+        margin-bottom: 50px;
+    }
+    
+
 }
 
 
