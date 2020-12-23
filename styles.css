@@ -644,9 +644,16 @@ h1{
 .section-7{
     height: 526px;
     background-color: #252b42;
-    
-}
 
+}
+.h3-7{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+}
 
 
 
