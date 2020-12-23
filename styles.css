@@ -14,7 +14,7 @@ body{
      
 }
 .wi-h{
-    width: 1440px;
+    width: 100%;
 }
 .section-1{
     background-image: url(./first-bg-img.png);
@@ -675,7 +675,7 @@ hr{
 }
 .main-div-7{
     display: flex;
-
+    margin-top: 70px;
 }
 
 .list-footer{
@@ -683,6 +683,7 @@ hr{
     height: 170px;
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 .list-h5{
     font-family:'Montserrat', sans-serif;
@@ -693,6 +694,7 @@ hr{
     color: #fff;
     margin-top: 0;
     margin-bottom: 15px;
+    
 }
 .span-7{
     font-family:'Montserrat', sans-serif;
@@ -736,6 +738,14 @@ hr{
     justify-content: baseline;
     
     vertical-align: middle;
+}
+.lorem{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    color: #bdbdbd
 }
 
 
