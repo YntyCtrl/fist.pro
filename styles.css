@@ -703,7 +703,40 @@ hr{
     color: #bdbdbd;
     margin: 5px 0;
 }
+.input-7{
+    height: 58px;
+    width: 214px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #bdbdbd;
 
+
+}
+.button-7{
+    width: 117px;
+    height: 58px;
+    margin-left: -10px;
+    background-color: #ffa62b;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 5px 5px 0px;
+    
+
+}
+.input-7,.button-7:focus{
+    outline: none;
+}
+.input-bt{
+    display: flex;
+    justify-content: baseline;
+    
+    vertical-align: middle;
+}
 
 
 
