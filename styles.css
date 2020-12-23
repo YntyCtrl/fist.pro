@@ -673,7 +673,36 @@ h1{
 hr{
     border: 1px solid #364067
 }
+.main-div-7{
+    display: flex;
 
+}
+
+.list-footer{
+    width: 148px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+}
+.list-h5{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.span-7{
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #bdbdbd;
+    margin: 5px 0;
+}
 
 
 
