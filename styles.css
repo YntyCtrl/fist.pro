@@ -432,6 +432,9 @@ h1{
     background-color: #fff;
 
 }
+ol{
+    padding: 0;
+}
 .star-p{
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
@@ -853,6 +856,7 @@ hr{
 
 
 }
+
     
 
 
