@@ -807,8 +807,10 @@ hr{
         margin: 0 auto;
     }
     .main-div-7{
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
+        text-align: center;
     }
     .list-footer{
         margin-bottom: 50px;
