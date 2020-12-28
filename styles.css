@@ -809,13 +809,16 @@ hr{
         margin-bottom: 40px
     }
     .main-div-4{
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
         margin-top: 50px;
         margin-bottom: 50px;
+        
     }
     .star-card{
-        margin: 30px 0;
+        margin: 30px 30px;
+        
     }
     .main-div-5{
         flex-direction: column;
