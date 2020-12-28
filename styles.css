@@ -346,6 +346,7 @@ h1{
     width: 461px;
     margin: 0 auto;
     color: #252b42;
+    padding-top: 80px;
 
 }
 .section-3-p{
@@ -354,7 +355,7 @@ h1{
     font-size: 14px;
     line-height: 20px;
     color: #737373;
-    width: 470px;
+    max-width: 470px;
     margin-top: 10px;
     margin-bottom: 0;
     margin-left: auto;
@@ -414,7 +415,7 @@ h1{
     font-size: 14px;
     line-height: 20px;
     color: #737373;
-    width: 470px;
+    max-width: 470px;
     margin-top: 10px;
     margin-bottom: 0;
     margin-left: auto;
@@ -500,7 +501,7 @@ ol{
         font-size: 14px;
         line-height: 20px;
         color: #737373;
-        width: 470px;
+        max-width: 470px;
         margin-top: 10px;
         margin-bottom: 0;
         margin-left: auto;
@@ -623,9 +624,10 @@ ol{
     border-radius: 5px;
     font-family:'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 14px;
     line-height: 28px;
+    color: #bdbdbd;
 }
 .section-6-h2{
     font-family:'Montserrat', sans-serif;
