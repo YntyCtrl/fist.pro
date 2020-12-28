@@ -304,13 +304,28 @@ h1{
     color: #737373;
     margin-bottom: 5px;
 }
-.list-div #learn{
+.list-div #learn-1{
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
     color: #ffa62b;
 }
+.list-div #learn-2{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffa62b;
+}
+.list-div #learn-3{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffa62b;
+}
+
 .card-section-2{
     display: flex;
     flex-direction: column;
